@@ -1,5 +1,9 @@
 # DNS Resolution Failure Lab
 
+**Lab Type:** Linux Troubleshooting  
+**Difficulty:** Beginner–Intermediate  
+**Focus Area:** DNS Resolution / Network Troubleshooting
+
 This lab documents a simulated DNS resolution failure in an Ubuntu VirtualBox environment and shows how the issue was identified, verified, and resolved through structured troubleshooting.
 
 ## 🧩 Issue Description
@@ -131,6 +135,17 @@ ping google.com
 - Every attempted fix should be verified before assuming the problem is resolved
 
 ---
+
+## 🔧 Commands Used
+
+```bash
+resolvectl status
+resolvectl dns enp0s3 1.2.3.4
+ping google.com
+ping 8.8.8.8
+sudo resolvectl revert enp0s3
+sudo resolvectl dns enp0s3 8.8.8.8
+```
 
 ## 🧱 Key Skills Demonstrated
 - Network troubleshooting  
