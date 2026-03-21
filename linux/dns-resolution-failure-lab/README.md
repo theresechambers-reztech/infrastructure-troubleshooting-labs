@@ -71,7 +71,8 @@ resolvectl status
 ```
 
 ### 📸 Figure 6 — DNS Misconfiguration Confirmed
-<img width="803" height="460" alt="06 - DNS-Boken-Confirmed" src="https://github.com/user-attachments/assets/0447c706-e675-48de-b771-2062c0a9efcc" />
+
+<img width="803" height="460" alt="06 - DNS-Broken-Confirmed" src="https://github.com/user-attachments/assets/e3a6df29-8b65-4ae7-9f9d-08ead27ed536" />
 
 ---
 
