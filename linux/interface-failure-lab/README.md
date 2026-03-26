@@ -112,11 +112,15 @@ This lab demonstrates that when the network interface is down, all connectivity 
 
 Conclusion: Lower-layer failure caused higher-layer symptoms
 
+---
+
 ## 💡 Key Insight
 
 When both DNS-based and direct IP connectivity fail, the issue is not name resolution but a lower-layer problem — typically the network interface, routing, or physical connectivity.
 
 This reinforces the importance of isolating failures across OSI layers during troubleshooting.
+
+---
 
 ## 🧱 Skills Demonstrated
 
@@ -156,6 +160,7 @@ ip a
 # Test connectivity after restoration (should work)
 ping 8.8.8.8
 ```
+---
 
 ## 🚀 Outcome
 
